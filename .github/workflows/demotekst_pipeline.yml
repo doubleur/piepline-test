@@ -30,8 +30,8 @@ jobs:
           python-version: 3.9
 
       # Runs a single command using the runners shell
-      - name: echo Hello World
-        run: echo Hello, world!
+      - name: run list
+        run: ls
         
       - name: echo demo.txt
         run: cat demo.txt
